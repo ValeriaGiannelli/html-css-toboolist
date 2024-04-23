@@ -7,20 +7,74 @@
 
 /* css dell'header */
 
-#header-logo{
-    padding: 15px 20px;
-}
+    /* posizionamento logo */
+    #header-logo{
+        padding: 15px 20px;
+    }
 
-#logo{
-    height:50px;
-    line-height: 50px;
-    vertical-align: middle;
-}
+    /* centrare logo e titolo */
+    #logo{
+        height:50px;
+        line-height: 50px;
+        vertical-align: middle;
+    }
 
-#text-logo{
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-size: 30px;
-    /* font-size:x-large; */
-}
+    /* font del titolo */
+    #text-logo{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-size: 30px;
+        /* font-size:x-large; */
+    }
+
+
+/* css del main */
+
+    /* sfondo container */
+    #container{
+        width: 100%;
+        height: 1200px;
+        background-color:rgb(246 248 249);
+    }
+
+    /* contenitore dei task */
+    .sfondo-task{
+        background-color: white;
+        border-radius: 1%;
+        width: 60%;
+        height: 1100px;
+        margin: 0 auto;
+        position:relative;
+        top: 50px;
+    }
+
+    /* css per allineare i contenuti */
+    .margine-sinistro{
+        margin-left: 45px;
+    }
+    
+    /* bottoni */
+    .bottone{
+        border-width: 2px;
+        border-radius: 10%;
+        border-style: solid;
+        padding: 5px 10px;
+        margin: 15px 0 10px;
+    }
+
+    .bottone-aggiunta{
+        background-color: rgb(92 168 240);
+        color: white;
+        border-color: rgb(92 168 240);
+    }
+
+    .bottone-sezione{
+        background-color: white;
+        color:rgb(199 203 208);
+        border-color: rgb(199 203 208);
+    }
+
+    hr{
+        border: 1px solid rgb(246 248 249);
+    }
