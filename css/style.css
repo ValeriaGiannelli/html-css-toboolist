@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight:bolder;
+}
+
 /* css dell'header */
 
     /* posizionamento logo */
@@ -21,7 +26,6 @@
 
     /* font del titolo */
     #text-logo{
-        font-family: "Plus Jakarta Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: 800;
         font-size: 30px;
@@ -54,10 +58,10 @@
         margin-left: 45px;
     }
     
-    /* bottoni */
+    /* ------------bottoni-------- */
     .bottone{
         border-width: 2px;
-        border-radius: 10%;
+        border-radius: 5px;
         border-style: solid;
         padding: 5px 10px;
         margin: 15px 0 10px;
@@ -78,3 +82,60 @@
     hr{
         border: 1px solid rgb(246 248 249);
     }
+
+    /* -----------bottoni---------- */
+
+    /* -----------task------------- */
+
+    /* Titoli */
+    h3{
+        margin-top:25px;
+    }
+
+    h3::before{
+        content: '\25BC';
+    }
+
+    /* task eseguiti */
+    /* .eseguiti{
+        display: inline-block;
+        position: relative;
+        width:20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        border: 1px solid green;
+        border-radius: 50px;
+    }
+
+    .eseguiti::before{
+        content:"\2713";
+        position:absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        color: green;
+        border-radius: 50px;
+    } */
+
+    .margine-sinistro img{
+        width: 15px;
+        margin: 10px 8px 0 0;
+    }
+
+
+    /* Sezione di appartenenza */
+    h6{
+        display: inline-block;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-size: 9px;
+    }
+    
+    /* Sezioni specifiche */
+    .editoriale{
+        background-color: rgb(90 166 234);
+        color: white;
+    }
+
